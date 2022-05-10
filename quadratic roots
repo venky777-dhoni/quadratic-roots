@@ -1,0 +1,13 @@
+
+#include <stdio.h>
+#include<math.h>
+
+int main()
+{
+    int a,b,c;
+    printf("enter values of a, b and c");
+    scanf("%d%d%d",&a,&b,&c);
+    int r1=(-b+sqrt((b*b)-4*a*c))/(2*a);
+    int r2=(-b-sqrt((b*b)-4*a*c))/(2*a);
+    printf("roots of the given values are %d and %d",r1,r2);
+}
